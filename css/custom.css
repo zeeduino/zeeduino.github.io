@@ -1,0 +1,28 @@
+body {
+    font-family: "Gotham SSm A", "Gotham SSm B", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+}
+
+footer p {
+    margin: 0;
+}
+
+.panel-body-nav {
+	padding: 0px;
+}
+
+.panel-nav {
+	border: 0;
+}
+
+.list-group-item.list-group-item-nav {
+    border: none;
+}
+
+/* hack for img-responsive often not showing in FF.
+And it looks better when it fits 100%, eh? */
+.img-responsive {
+	width: 100%;
+}
+

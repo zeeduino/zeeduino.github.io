@@ -1,0 +1,16 @@
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="bs-component">
+            <ul class="breadcrumb">
+              <li><a href="/">Home</a></li>
+              {% if page.url == '/what' %}
+              <li class="active">What is it</li>
+              {% elsif page.url == '/how' %}
+              <li class="active">How it works</li>
+              {% else page.url == '/where' %}
+              <li class="active">Where can I get it</li>
+              {% endif %}
+            </ul>
+          </div>
+        </div>
+      </div>
