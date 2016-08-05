@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: how
-title: "Arduino-XC - wider open playground"
+title: "Zeeduino-XC - wider open playground"
 ---
 
       <div class="row">
@@ -28,13 +28,13 @@ title: "Arduino-XC - wider open playground"
             <div class="panel-body">
 
               <p>
-              Arduino-XC is, in essence, a cleaned up, organized and layered Arduino code.
+              Zeeduino-XC is, in essence, a cleaned up, organized and layered Wiring/Arduino code.
               </p>
 
               <p>
               Entire code is divided into 3 distinct parts:
               <ul>              
-                <li>Arduino code</li>
+                <li>Zeeduino code</li>
                 <li>Controller specific code</li>
                 <li>An abstraction layer (Board API and mappers) which connects those two</li>
               </ul>              
@@ -45,8 +45,8 @@ title: "Arduino-XC - wider open playground"
               <ol>
                 <li>First you pick the best controller in the world. Ever. Period.</li>
                 <li>Then you implement Board API functions and mapper structures.</li>
-                <li>Compile and run Arduino code on your controller (and on whatever board it is soldered to)</li>
-                <li>Use hundreds of Arduino libraries in your projects</li>
+                <li>Compile and run Arduino/Wiring code on your controller (and on whatever board it is soldered to)</li>
+                <li>Use hundreds of Arduino/Wiring libraries in your projects</li>
               </ol>              
               </p>
 
@@ -54,24 +54,24 @@ title: "Arduino-XC - wider open playground"
               Step 4 is optional. You can write all those libraries yourself if you hate helping yourself with other people's work they offer you for free.
               </p>
               <p>
-              I wrote all those libraries from scratch just because I can. You shouldn't do that. I love when people help me with their work, and I love doing the same for others. Thus, Arduino-XC.
+              I wrote all those libraries from scratch just because I can. You shouldn't do that. I love when people help me with their work, and I love doing the same for others. Thus, Zeeduino-XC.
               </p>
 
               <p>
-                  Here is a simple diagram to show a basic concept of Arduino-XC:
+                  Here is a simple diagram to show a basic concept of Zeeduino-XC:
               </p>
 
               <p>&nbsp;</p>
               
               <div class="center-block">
-                <p>Standard Arduino source code</p>
+                <p>Standard Wiring/Arduino source code</p>
                 <img class="img-responsive" src="/img/diagram-01.png"/>
               </div>
 
               <p>&nbsp;</p>
               
               <div class="center-block">
-                <p>Arduino-XC concept</p>
+                <p>Zeeduino-XC concept</p>
                 <img class="img-responsive" src="/img/diagram-02.png"/>
               </div>
               
@@ -84,7 +84,7 @@ title: "Arduino-XC - wider open playground"
               </div>
 
               <p>
-              I dunno. Take a look at this a bit more detailed list of steps you need to do to port Arduino to your controller, and to then take the advantage of all those libraries:
+              I dunno. Take a look at this a bit more detailed list of steps you need to do to port Wiring/Arduino to your controller, and to then take the advantage of all those libraries:
               <ul>
                 <li>First you pick the best controller in the world. Ever. Period.</li>
                 <li>Then you make sure you know how to program in C for that controller.</li>
@@ -93,7 +93,7 @@ title: "Arduino-XC - wider open playground"
                 <li>Now you sit down and start typing really fast and precise on your keyboard.</li>
                 <li>With this fast typing, you aim to implement Board API functions so they work on your controller.</li>
                 <li>You then adapt mapper structures to support your controller's pins and pin features, and the board the controller is on (you've got the board, right?)</li>
-                <li>compile and run your first Arduino program on your controller (and board)</li>
+                <li>compile and run your first Wiring/Arduino program on your controller (and board)</li>
               </ul>              
               </p>
 
@@ -108,7 +108,7 @@ title: "Arduino-XC - wider open playground"
               </p>
 
               <p>
-              You can download (or clone the git repo) <a href="https://github.com/zeeduino/arduino-xc" target="_blank">Arduino-XC source</a> and <a href="https://github.com/zeeduino/arduino-xc-lpc13xx" target="_blank">Arduino-XC for lpc13xx port</a>. And you should. Then take a look at how lpc13xx port is implemented and repeat the same thing. It's not that hard. Honestly.
+              You can download (or clone the git repo) <a href="https://github.com/zeeduino/arduino-xc" target="_blank">Zeeduino-XC source</a> and <a href="https://github.com/zeeduino/arduino-xc-lpc13xx" target="_blank">Zeeduino-XC for lpc13xx port</a>. And you should. Then take a look at how lpc13xx port is implemented and repeat the same thing. It's not that hard. Honestly.
               </p>
 
               <p>
@@ -116,7 +116,7 @@ title: "Arduino-XC - wider open playground"
               </p>
 
               <p>
-              It's Arduino-XC.
+              It's Zeeduino-XC.
               </p>
 
               <p>
