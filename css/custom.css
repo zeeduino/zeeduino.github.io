@@ -26,3 +26,6 @@ And it looks better when it fits 100%, eh? */
 	width: 100%;
 }
 
+.panel-heading > a {
+    color: #ffffff;
+}
